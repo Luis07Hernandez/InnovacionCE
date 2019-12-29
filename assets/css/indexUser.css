@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* <body> */
+body{
+    background: url(../img/business-2.jpg); /* Imagen de fondo */ 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* Div Loader para mostrar un snniper de Bootstrap en lo que carga el documento */
+.loader {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999; /* Indicamos que este hasta el frente de todos los elementos */ 
+    background: rgb(255, 255, 255);
+    opacity: 1;
+    display: flex;
+    align-items: center;
+}
+/* FIN Div Loader para mostrar un snniper de Bootstrap en lo que carga el documento */
+
+/* BANNER */
+
+.banner{ /*Div Banner*/ 
+    
+    /* Este div es transparente y tiene un alto de 600px */ 
+    width: 100%;
+    height: 600px;
+    text-align: center;
+}
+
+
+
+.header-1{ 
+    margin-top: 150px; 
+}
+
+
+
+/* FIN BANNER */
+
+
+/*CONTENIDO*/
+.motivacion{
+    position: relative;
+    padding-top: 80px;
+    background-color: white;
+    color: black;
+}
+
+.img-creatividad{
+    width: 100%;
+    height: 250px;
+    display: block;
+    overflow: hidden;
+}
+
+.ul-tips{ /* Lista para los consejos de motivación */
+    list-style: none; /* Quitamos las viñetas de la lista */
+}
+
+.ul-tips > li >  h5 { /* Establecemos color rojo al titulo de cada consejo */
+    color: #B6071F;
+}
+/* FIN CONTENIDO */
+
+
+/* FOOTER */
+
+.footer{ /*  <section class="footer"> */ 
+    
+    width: 100%;
+    
+    background-color: #0E0D0D;
+}
+
+.dolphah-img{ /* Imagen Dolphah */
+    width: 100%;
+    height: 250px;
+}
+
+/* FIN FOOTER */
+
+

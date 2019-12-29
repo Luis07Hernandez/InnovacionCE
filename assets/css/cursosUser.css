@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    overflow: hidden;
+}
+
+
+/* Div Loader para mostrar un snniper de Bootstrap en lo que carga el documento */
+.loader {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999; /* Indicamos que este hasta el frente de todos los elementos */ 
+    background: rgb(255, 255, 255);
+    opacity: 1;
+    display: flex;
+    align-items: center;
+}
+
